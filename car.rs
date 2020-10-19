@@ -22,7 +22,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-
 struct Car{
   wheels: u32,
   doors: u32,
@@ -65,6 +64,4 @@ fn main() {
   println!("{}{}{}", "Wheels check: ", subaru.wheels, "\n");
   println!("{}{}{}", "Doors check: ", subaru.doors, "\n");
   println!("{}{}{}", "Cylinders check: ", subaru.cylinders, "\n");
-
-  println!("Hello World!");
 }
